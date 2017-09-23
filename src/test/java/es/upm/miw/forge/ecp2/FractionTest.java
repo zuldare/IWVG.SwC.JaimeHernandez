@@ -10,25 +10,31 @@ public class FractionTest {
 
     @Before
     public void before() {
-        fraction = new Fraction(1,2);
+        fraction = new Fraction(1, 2);
     }
 
     @Test
     public void testFraction() {
         fraction = new Fraction();
-        assertEquals(1,fraction.getNumerator());
-        assertEquals(1,fraction.getDenominator());
+        assertEquals(1, fraction.getNumerator());
+        assertEquals(1, fraction.getDenominator());
     }
-    
-    @Test 
+
+    @Test
     public void testFractionIntInt() {
         assertEquals(1, fraction.getNumerator());
         assertEquals(2, fraction.getDenominator());
     }
-    
+
     @Test
     public void testDecimal() {
         assertEquals(0.5, fraction.decimal(), 10e-5);
+    }
+
+    @Test
+    public void testIsMenor() {
+        Fraction fractionB = new Fraction(1, 4);
+        assert (fractionB.isMenor(fraction));
     }
 
 }

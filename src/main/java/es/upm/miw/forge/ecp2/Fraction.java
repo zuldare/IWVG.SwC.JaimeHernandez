@@ -60,4 +60,8 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public boolean isMenor(Fraction fractionB) {
+    		return this.decimal() < fractionB.decimal() ? true : false;
+    }
+    
 }
