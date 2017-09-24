@@ -50,4 +50,10 @@ public class PointTest {
         assertEquals("Point[2,3]", pt.toString());
     }
 
+    @Test
+    public void testMove() {
+        pt.move(10, 20);
+        assertEquals(10, pt.getX());
+        assertEquals(20, pt.getY());
+    }
 }

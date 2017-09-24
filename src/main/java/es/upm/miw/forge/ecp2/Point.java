@@ -42,4 +42,9 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
     
+    public void move(int moveInX, int moveInY) {
+    		this.x = moveInX;
+    		this.y = moveInY;
+    }
+    
 }
