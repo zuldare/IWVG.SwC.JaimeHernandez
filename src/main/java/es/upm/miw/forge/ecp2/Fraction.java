@@ -64,4 +64,8 @@ public class Fraction {
     		return this.decimal() < fractionB.decimal() ? true : false;
     }
     
+    public boolean isEquivalente(Fraction fractionB) {
+		return this.getNumerator() * fractionB.getDenominator() == this.getDenominator() * fractionB.getNumerator()? true : false;
+    }
+    
 }
