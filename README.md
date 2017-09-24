@@ -13,9 +13,9 @@ Para Documentación mas detallada visitar: [Enlace de Wiki](https://github.com/z
 
 ## Equipo de Trabajo
 * Arquitecto: Jose Jaime Hernández Ortiz
-* Programador 1: Ángela Sanchez Gomez   [asancgom] (https://github.com/asancgom)
-* Programador 2: Gabriel Muñumel        [gmunumel] (https://github.com/gmunumel)
-* Programador 3: Guillermo Sanz Nieto   [GuillermoSanz] (https://github.com/GuillermoSanz)
+* Programador 1: Ángela Sanchez Gomez   [asancgom](https://github.com/asancgom)
+* Programador 2: Gabriel Muñumel        [gmunumel](https://github.com/gmunumel)
+* Programador 3: Guillermo Sanz Nieto   [GuillermoSanz](https://github.com/GuillermoSanz)
 
 
 
