@@ -36,5 +36,10 @@ public class FractionTest {
         Fraction fractionB = new Fraction(1, 4);
         assert (fractionB.isMenor(fraction));
     }
-
+    
+    @Test
+    public void testIsEquivalente() {
+        Fraction fractionB = new Fraction(2, 4);
+        assert (fractionB.isEquivalente(fraction));
+    }
 }
