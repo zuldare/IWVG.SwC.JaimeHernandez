@@ -9,7 +9,7 @@ Concretamente, las clases a mejorar serán las siguientes:
 * Clase DecimalCollection, maneja una colección de valores decimales de tipo double
 * Clase Fraction, maneja fracciones matemáticas
 
-Para Documentación mas detallada visitar: [Enlace de Wiki](https://github.com/zuldare/IWVG.SwC.JaimeHernandez/wiki/Proyecto:-Software-Colaborativo)
+Para Documentación mas detallada visitar: [Enlace de Wiki](https://github.com/zuldare/IWVG.SwC.JaimeHernandez/wiki)
 
 ## Equipo de Trabajo
 * Arquitecto: Jose Jaime Hernández Ortiz
