@@ -1,5 +1,8 @@
 package es.upm.miw.forge.ecp2;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotEquals;
+
 /**
  * Conceptos: Las fracciones propias son aquellas cuyo numerador es menor que el
  * denominador
@@ -66,6 +69,14 @@ public class Fraction {
     
     public boolean isEquivalente(Fraction fractionB) {
 		return this.getNumerator() * fractionB.getDenominator() == this.getDenominator() * fractionB.getNumerator()? true : false;
+    }
+    
+    public Fraction dividir(Fraction fractionB) {
+    	assertNotNull(fractionB);
+    	assertNotEquals(0,fractionB.denominator);
+    	Fraction franctionResult = new Fraction(this.numerator * fractionB.denominator,
+    											this.denominator * fractionB.numerator);
+    	return franctionResult;
     }
     
 }
