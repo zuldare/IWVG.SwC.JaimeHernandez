@@ -1,6 +1,6 @@
 package es.upm.miw.forge.ecp2;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -35,6 +35,9 @@ public class FractionTest {
     public void testIsMenor() {
         Fraction fractionB = new Fraction(1, 4);
         assert (fractionB.isMenor(fraction));
+        assertNotNull(fractionB);
+        assertNotEquals(0, fractionB.getDenominator());
+
     }
 
 }
