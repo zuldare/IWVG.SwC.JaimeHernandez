@@ -68,6 +68,8 @@ public class Fraction {
     }
     
     public boolean isEquivalente(Fraction fractionB) {
+     	assertNotNull(fractionB);
+     	assertNotEquals(0,fractionB.denominator);
 		return this.getNumerator() * fractionB.getDenominator() == this.getDenominator() * fractionB.getNumerator()? true : false;
     }
     
