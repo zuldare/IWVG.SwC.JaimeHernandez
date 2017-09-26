@@ -76,9 +76,7 @@ public class Fraction {
     public Fraction dividir(Fraction fractionB) {
     	assertNotNull(fractionB);
     	assertNotEquals(0,fractionB.denominator);
-    	Fraction franctionResult = new Fraction(this.numerator * fractionB.denominator,
+    	return new Fraction(this.numerator * fractionB.denominator,
     											this.denominator * fractionB.numerator);
-    	return franctionResult;
     }
-    
 }
