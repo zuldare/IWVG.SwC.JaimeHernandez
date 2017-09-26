@@ -54,5 +54,17 @@ public class DecimalCollectionTest {
 		exception.expect(ArithmeticException.class);
 		new DecimalCollection().higher();
 	}
+	
+	@Test
+	public void testMeans() {
+		assertEquals(1.5, this.decimalCollection.means(), 10e-5);
+	}
+	
+
+	@Test
+	public void testMeansArithmeticExceptionIfEmpty() {
+		exception.expect(ArithmeticException.class);
+		new DecimalCollection().means();
+	}
 
 }
