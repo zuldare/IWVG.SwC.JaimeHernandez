@@ -37,8 +37,8 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
-    
+
     public String fullNameAnglosaxon() {
-    	return this.familyName + " " + this.name;
+        return this.familyName + " " + this.name;
     }
 }

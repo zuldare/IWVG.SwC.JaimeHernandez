@@ -39,17 +39,17 @@ public class FractionTest {
         assertNotEquals(0, fractionB.getDenominator());
 
     }
-    
+
     @Test
     public void testIsEquivalente() {
         Fraction fractionB = new Fraction(2, 4);
         assert (fractionB.isEquivalente(fraction));
     }
-    
+
     @Test
     public void testDividir() {
-    	Fraction fractionB = new Fraction(2, 4);
-    	Fraction result = fraction.dividir(fractionB);
-        assert(result.isEquivalente( new Fraction(4,4)));
+        Fraction fractionB = new Fraction(2, 4);
+        Fraction result = fraction.dividir(fractionB);
+        assert (result.isEquivalente(new Fraction(4, 4)));
     }
 }

@@ -41,10 +41,10 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
-    
+
     public void move(int moveInX, int moveInY) {
-    		this.x = moveInX;
-    		this.y = moveInY;
+        this.x = moveInX;
+        this.y = moveInY;
     }
-    
+
 }
