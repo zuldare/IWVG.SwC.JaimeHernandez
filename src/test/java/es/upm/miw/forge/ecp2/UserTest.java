@@ -5,8 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import es.upm.miw.forge.ecp2.Point;
-
 public class UserTest {
     private User user;
 
